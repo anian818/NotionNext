@@ -8,14 +8,14 @@ const Style = () => {
   return <style jsx global>{`
     // 底色
     body{
-        background-color: light blue
+        background-color: #87CEFA
     }
     .dark body{
         background-color: light blue;
     }
 
     /* 设置了从上到下的渐变黑色 */
-    #theme-matery .header-cover::before {
+    theme-matery .header-cover::before {
         content: "";
         position: absolute;
         top: 0;
