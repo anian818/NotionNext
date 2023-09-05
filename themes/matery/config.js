@@ -7,7 +7,7 @@ const CONFIG = {
   HOME_NAV_BACKGROUND_IMG_FIXED: false, // 首页背景图滚动时是否固定，true 则滚动时图片不懂； false则随鼠标滚动
 
   // 是否显示开始阅读按钮
-  SHOW_START_READING: true,
+  SHOW_START_READING: false,
 
   // 菜单配置
   MENU_CATEGORY: true, // 显示分类
@@ -26,8 +26,8 @@ const CONFIG = {
   WIDGET_LATEST_POSTS: true, // 显示最新文章卡
   WIDGET_ANALYTICS: false, // 显示统计卡
   WIDGET_TO_TOP: true,
-  WIDGET_TO_COMMENT: true, // 跳到评论区
-  WIDGET_DARK_MODE: true, // 夜间模式
+  WIDGET_TO_COMMENT: false, // 跳到评论区
+  WIDGET_DARK_MODE: false, // 夜间模式
   WIDGET_TOC: true // 移动端悬浮目录
 }
 export default CONFIG
